@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>DisplayProductName</key>
+		<string>DELL U2913WM (HiDPI + RGB EDID override)</string>
+		<key>IODisplayEDID</key>
+		<data>AP///////wAQrItATDc1NQIYAQSlQxx4Ju6Vo1RMmSYPUFSlSwCBALMAcU+B
+gNHAAQEBAQEBfkgA4KA4H0BAQDoAoRwhAAAaAAAA/wA1WUQ4QzQxNzU1N0wK
+AAAA/ABERUxMIFUyOTEzV00KAAAA/QAxVh1eEwEKICAgICAgAMM=
+</data>
+		<key>DisplayVendorID</key>
+		<integer>4268</integer>
+		<key>DisplayProductID</key>
+		<integer>16523</integer>
+		<key>scale-resolutions</key>
+		<array>
+			<data>AAAIAAAAA2AAAAABACAAAA==</data>
+			<data>AAAQAAAABsAAAAABACAAAA==</data>
+			<data>AAAHgAAAAyoAAAABACAAAA==</data>
+			<data>AAAPAAAABlQAAAABACAAAA==</data>
+			<data>AAAGQAAAAqIAAAABACAAAA==</data>
+			<data>AAAMgAAABUQAAAABACAAAA==</data>
+			<data>AAAGQAAAAqMAAAABACAAAA==</data>
+			<data>AAAMgAAABUYAAAABACAAAA==</data>
+		</array>
+	</dict>
+</plist>

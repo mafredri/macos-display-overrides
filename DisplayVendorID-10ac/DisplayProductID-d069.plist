@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>DisplayProductName</key>
+		<string>DELL U2715H (HiDPI + RGB EDID override)</string>
+		<key>IODisplayEDID</key>
+		<data>AP///////wAQrGnQTDhVMAwZAQOAPCJ45kRVqVVNnSYPUFSlSwCzANEAcU+p
+QIGAd4ABAQEBVl4AoKCgKVAwIDUAVVAhAAAaAAAA/wBHSDg1RDUzSzBVOEwK
+AAAA/ABERUxMIFUyNzE1SAogAAAA/QA4Vh5xHgAKICAgICAgAOQ=
+</data>
+		<key>DisplayVendorID</key>
+		<integer>4268</integer>
+		<key>DisplayProductID</key>
+		<integer>53353</integer>
+		<key>scale-resolutions</key>
+		<array>
+			<data>AAAMgAAABwgAAAABACAAAA==</data>
+			<data>AAAPAAAACHAAAAABACAAAA==</data>
+			<data>AAAKAAAABaAAAAABACAAAA==</data>
+			<data>AAANIAAAB2IAAAABACAAAA==</data>
+			<data>AAAFAAAAAtAAAAABACAAAA==</data>
+		</array>
+	</dict>
+</plist>
