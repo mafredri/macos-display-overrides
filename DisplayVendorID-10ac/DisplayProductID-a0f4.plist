@@ -3,15 +3,12 @@
 <plist version="1.0">
 	<dict>
 		<key>DisplayProductName</key>
-		<string>DELL U3818DW - forced RGB mode (EDID override)</string>
-		<key>IODisplayEDID</key>
-		<data>AP///////wAQrPSgTFRQMBAcAQS1WCV4Ju6Vo1RMmSYPUFSlSwBxT4EAgYCp
-QNHAAQEBAQEBTJoAoPBALmAwIDoAcG8xAAAaAAAA/wA1S0MwMzg0SjBQVEwK
-AAAA/ABERUxMIFUzODE4RFcKAAAA/QAYVRlzKAAKICAgICAgALs=
-</data>
+		<string>DELL U3818DW (NoTV override)</string>
 		<key>DisplayVendorID</key>
 		<integer>4268</integer>
 		<key>DisplayProductID</key>
 		<integer>41204</integer>
+		<key>DisplayIsTV</key>
+		<false/>
 	</dict>
 </plist>

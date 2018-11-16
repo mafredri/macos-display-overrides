@@ -3,12 +3,7 @@
 <plist version="1.0">
 	<dict>
 		<key>DisplayProductName</key>
-		<string>DELL U2715H (HiDPI + RGB EDID override)</string>
-		<key>IODisplayEDID</key>
-		<data>AP///////wAQrGXQTEwwMA0ZAQSlPCJ4JkRVqVVNnSYPUFSlSwCzANEAcU+p
-QIGAd4ABAQEBVl4AoKCgKVAwIDUAVVAhAAAaAAAA/wBHSDg1RDUzUzAwTEwK
-AAAA/ABERUxMIFUyNzE1SAogAAAA/QA4Vh5xHgEKICAgICAgAJo=
-</data>
+		<string>DELL U2715H (HiDPI)</string>
 		<key>DisplayVendorID</key>
 		<integer>4268</integer>
 		<key>DisplayProductID</key>
@@ -21,5 +16,7 @@ AAAA/ABERUxMIFUyNzE1SAogAAAA/QA4Vh5xHgEKICAgICAgAJo=
 			<data>AAANIAAAB2IAAAABACAAAA==</data>
 			<data>AAAFAAAAAtAAAAABACAAAA==</data>
 		</array>
+		<key>DisplayIsTV</key>
+		<false/>
 	</dict>
 </plist>
