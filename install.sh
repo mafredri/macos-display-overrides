@@ -16,6 +16,6 @@ for id in DisplayVendorID-*; do
 		target="$override_dir/${pl%.plist}"
 		cp "$pl" "$target"
 		chown root:wheel "$target"
-		chmod 0644 "$target"
+		chmod 0664 "$target"
 	done
 done
