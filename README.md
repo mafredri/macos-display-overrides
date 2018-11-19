@@ -11,7 +11,7 @@ Goals:
 
 ## Usage
 
-1. Create overrides (`DisplayVendorID-*/DisplyaProductID-*.plist`)
+1. Create overrides (`DisplayVendorID-*/DisplayProductID-*.plist`)
 2. Boot into recovery
 3. Mount `Macintosh HD`
 4. Open Terminal and run `./install.sh` from the project folder (`/Volumes/Macintosh HD/path/to/project`)
