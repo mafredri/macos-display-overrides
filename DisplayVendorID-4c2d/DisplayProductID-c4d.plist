@@ -36,6 +36,7 @@
 			+               2160 2163 2168 2222 vborder 0
 			+               +hsync -vsync
 			+               VertFreq: 59 Hz, HorFreq: 133312 Hz
+
 			-->
 			<dict>
 				<key>offset</key>
@@ -45,6 +46,7 @@
 			</dict>
 
 			<!--
+
 			This was Apples attempt at fixing this monitor, which
 			did not produce good results (flickering and errors in
 			Console).
@@ -55,6 +57,7 @@
 				<key>data</key>
 				<data>AAAAAAAAAAAAAAAAAAAAAAAA</data>
 			</dict>
+
 			-->
 		</array>
 	</dict>
