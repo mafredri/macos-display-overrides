@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>DisplayProductName</key>
+		<string>U28E590 (NoTV + 3840x2160@60Hz patch)</string>
+		<key>DisplayVendorID</key>
+		<integer>19501</integer>
+		<key>DisplayProductID</key>
+		<integer>3149</integer>
+		<key>DisplayIsTV</key>
+		<false/>
+		<key>edid-patches</key>
+		<array>
+			<!--
+
+			This patch adds a new video data block (3840x2160@60Hz)
+			that fixes old versions of this display:
+
+			 CTA extension block
+			 Extension version: 3
+			-10 bytes of CTA data
+			+11 bytes of CTA data
+			   Video data block
+			     VIC  16 1920x1080@60Hz 16:9  HorFreq: 67500 Hz Clock: 148.500 MHz
+			+    VIC  97 3840x2160@60Hz 16:9  HorFreq: 135000 Hz Clock: 594.000 MHz
+			   Audio data block
+			     Linear PCM, max channels 2
+			       Supported sample rates (kHz): 48 44.1 32
+			@@ -65,5 +66,10 @@
+			                1440 1443 1448 1481 vborder 0
+			                +hsync -vsync
+			                VertFreq: 59 Hz, HorFreq: 88786 Hz
+			+Detailed mode: Clock 533.250 MHz, 607 mm x 345 mm
+			+               3840 3888 3920 4000 hborder 0
+			+               2160 2163 2168 2222 vborder 0
+			+               +hsync -vsync
+			+               VertFreq: 59 Hz, HorFreq: 133312 Hz
+			-->
+			<dict>
+				<key>offset</key>
+				<integer>127</integer>
+				<key>data</key>
+				<data>4202030FF04210612309070783010000023A801871382D40582C45005F592100001E565E00A0A0A02950302035005F592100001A4DD000A0F0703E80302035005F592100001A</data>
+			</dict>
+
+			<!--
+			This was Apples attempt at fixing this monitor, which
+			did not produce good results (flickering and errors in
+			Console).
+
+			<dict>
+				<key>offset</key>
+				<integer>178</integer>
+				<key>data</key>
+				<data>AAAAAAAAAAAAAAAAAAAAAAAA</data>
+			</dict>
+			-->
+		</array>
+	</dict>
+</plist>
