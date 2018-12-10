@@ -28,16 +28,15 @@ Create a dump for each display connected to your Mac.
 ```bash
 n=0; \
 ioreg -lw0 | grep "IODisplayEDID" \
-        | while read line; do \
-                (( n++ )); \
-                name=display-${n}.edid; \
-                sed "/[^<]*</s///" <<<"$line" | xxd -p -r > $name; \
-                echo "Created $name"; \
-        done
+	| while read line; do \
+		(( n++ )); \
+		name=display-${n}.edid; \
+		sed "/[^<]*</s///" <<<"$line" | xxd -p -r > $name; \
+		echo "Created $name"; \
+	done
 ```
 
 ## Resources
 
 - [Display Override PropertyList File Parser and Generator with HiDPI support](https://comsysto.github.io/Display-Override-PropertyList-File-Parser-and-Generator-with-HiDPI-Support-For-Scaled-Resolutions/)
 - [edid-decode](https://git.linuxtv.org/edid-decode.git/)
-
