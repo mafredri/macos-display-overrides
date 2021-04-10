@@ -2,7 +2,7 @@
 
 This repository is for display overrides to make (my) monitors work better on macOS.
 
-For Catalina and older, see [catalina](./tree/catalina)-branch.
+For Catalina and older, see [catalina](../../tree/catalina)-branch.
 
 <img src="./resources/Screen Shot 2021-04-10 at 14.47.09.png">
 
